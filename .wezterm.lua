@@ -20,7 +20,9 @@ config.color_scheme = 'Tokyo Night'
 config.animation_fps = 144
 config.max_fps = 144
 
-config.window_padding = { left = 18, right = 18, top = 14, bottom = 14 }
+config.window_close_confirmation = 'AlwaysPrompt'
+
+config.window_padding ={ left = 18, right = 18, top = 14, bottom = 14 }
 config.default_cursor_style = 'SteadyBar'
 config.line_height = 1.1
 config.window_background_opacity = 0.95
